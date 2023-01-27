@@ -44,10 +44,23 @@
 
       <div class="pop_up_header">
         <a href="" class="heart__link"><img src="images/icon_favorite.svg" alt="" class="header__heart"></a>
-        <div class="seacrh">
-          <a href="" class="popup__header-link"><img src="images/icon_search.svg" alt="" class="search__img"></a>
-          <a href="" class="popup__header-link"><p class="search__text">Поиск по названию</p></a>
+        <div class="seacrh" onclick="openSearch()">
+          <img src="images/icon_search.svg" alt="" class="search__img">
+          <p class="search__text">Поиск по названию</p>
         </div>
+      </div>
+
+      <div id="myOverlay" class="overlay">
+
+        <span class="close__btn" onclick="closeSearch()">X</span>
+        <div class="form__ihner">
+          <form action="" class="form">
+
+            <input type="text" class="seach__text-form" placeholder=" Введите название дома">
+            <button type="button" class="search__btn">Найти</button>
+          </form>
+        </div>
+
       </div>
 
     </div>
@@ -61,5 +74,7 @@
 
 <body>
 
+
+<script src="script/script.js"></script>
 </body>
 </html>
