@@ -25,6 +25,11 @@ p{
     margin: 0;
 }
 
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family:  'Montserrat', sans-serif;
     font-weight: 500;
@@ -45,6 +50,10 @@ body{
     max-width: 1920px;
     height: 949px;
 
+}
+
+.container__header{
+    margin-bottom: 152px;
 }
 
 .contact__header{
@@ -98,7 +107,7 @@ body{
     color: #FFFFFF;
 
 
-    border: 1px solid #FFFFFF;
+    
     border-radius: 200px;
     padding: 10px 20px;
     transition: .3s ease-in-out;
@@ -247,4 +256,37 @@ body{
 
     color: #C0C2D7;
 
+}
+
+
+.header__title-container{
+
+}
+
+.section__title{
+    max-width: 680px;
+    font-family: 'Raleway',  sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 140%;
+    /* or 78px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    margin-bottom: 38px;
+}
+
+
+.section__subtitle{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+
+
+    color: #FFFFFF;
+    max-width: 447px;
 }
