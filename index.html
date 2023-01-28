@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
 
     <title>Title</title>
 
 
-
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <header class="header">
 
     <div class="container__header">
-    <div class="header__ihner">
-      <img src="images/logo_light.png" alt="" class="logo__img">
-      <div class="selector">
-        <img src="images/map-locator%201.svg" alt="" class="pointer">
-        <p  class="catalog__text">Казань</p>
-        <img src="images/arrow%20down.svg" alt="" class="selector__arrow">
-        <a href="" class="catalog__selector">Каталог</a>
-      </div>
-      <div class="contact__header">
-        <a href="" class="contact__header-item">Частые вопросы</a>
-        <a href="" class="contact__header-item">Сотрудничество</a>
-      </div>
+        <div class="header__ihner">
+            <img src="images/logo_light.png" alt="" class="logo__img">
+            <div class="selector">
+                <img src="images/map-locator%201.svg" alt="" class="pointer">
+                <p class="catalog__text">Казань</p>
+                <img src="images/arrow%20down.svg" alt="" class="selector__arrow">
+                <a href="" class="catalog__selector">Каталог</a>
+            </div>
+            <div class="contact__header">
+                <a href="" class="contact__header-item">Частые вопросы</a>
+                <a href="" class="contact__header-item">Сотрудничество</a>
+            </div>
 
 
+            <div class="header__phone">
+                <img src="images/icon_phone.svg" alt="" class="phone__img">
+                <a href="telto:8 (843) 528-65-48" class="phone">8 (843) 528-65-48</a>
+            </div>
 
-      <div class="header__phone">
-        <img src="images/icon_phone.svg" alt="" class="phone__img">
-        <a href="telto:8 (843) 528-65-48" class="phone">8 (843) 528-65-48</a>
-      </div>
+            <div class="pop_up_header">
+                <a href="" class="heart__link"><img src="images/icon_favorite.svg" alt="" class="header__heart"></a>
+                <div class="seacrh" onclick="openSearch()">
+                    <img src="images/icon_search.svg" alt="" class="search__img">
+                    <p class="search__text">Поиск по названию</p>
+                </div>
+            </div>
 
-      <div class="pop_up_header">
-        <a href="" class="heart__link"><img src="images/icon_favorite.svg" alt="" class="header__heart"></a>
-        <div class="seacrh" onclick="openSearch()">
-          <img src="images/icon_search.svg" alt="" class="search__img">
-          <p class="search__text">Поиск по названию</p>
+            <div id="myOverlay" class="overlay">
+
+                <span class="close__btn" onclick="closeSearch()">X</span>
+                <div class="form__ihner">
+                    <form action="" class="form">
+
+                        <input type="text" class="seach__text-form" placeholder=" Введите название дома">
+                        <button type="button" class="search__btn">Найти</button>
+                    </form>
+                </div>
+
+            </div>
+
         </div>
-      </div>
-
-      <div id="myOverlay" class="overlay">
-
-        <span class="close__btn" onclick="closeSearch()">X</span>
-        <div class="form__ihner">
-          <form action="" class="form">
-
-            <input type="text" class="seach__text-form" placeholder=" Введите название дома">
-            <button type="button" class="search__btn">Найти</button>
-          </form>
-        </div>
-
-      </div>
-
     </div>
-  </div>
 
     <div class="header__section">
         <div class="container">
@@ -72,65 +70,67 @@
                 <h2 class="section__subtitle">Найдите идеальный вариант сами или предоставьте это нам</h2>
             </div>
 
-        <div class="header__slider">
-          <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <img src="/images/photo%201.png" alt="" class="slide__img">
-                <p class="slide__text">С бассейном</p>
-              </div>
 
-              <div class="swiper-slide">
-                <img src="/images/photo%202.png" alt="" class="slide__img">
-                <p class="slide__text">Семейные и уютные</p>
-              </div>
+            <div class="slider__ihner">
+                <div class="header__slider">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
 
 
-              <div class="swiper-slide">
-                <img src="/images/photo%203.png" alt="" class="slide__img">
-                <p class="slide__text">Хиты продаж</p>
+                            <div class="swiper-slide">
+                                <img src="/images/photo%201.png" alt="" class="slide__img">
+                                <p class="slide__text">С бассейном</p>
+                            </div>
 
-              </div>
-
-
-              <div class="swiper-slide">
-                <img src="/images/photo%204.png"  alt="" class="slide__img">
-                <p class="slide__text">Под свадьбы икорпоративы</p>
-
-              </div>
+                            <div class="swiper-slide">
+                                <img src="/images/photo%202.png" alt="" class="slide__img">
+                                <p class="slide__text">Семейные и уютные</p>
+                            </div>
 
 
-              <div class="swiper-slide">
-                <img src="/images/photo%205.png" alt="" class="slide__img">
-                <p class="slide__text">С русской баней на дровах</p>
-              </div>
+                            <div class="swiper-slide">
+                                <img src="/images/photo%203.png" alt="" class="slide__img">
+                                <p class="slide__text">Хиты продаж</p>
+
+                            </div>
+
+
+                            <div class="swiper-slide">
+                                <img src="/images/photo%204.png" alt="" class="slide__img">
+                                <p class="slide__text">Под свадьбы икорпоративы</p>
+
+                            </div>
+
+
+                            <div class="swiper-slide">
+                                <img src="/images/photo%205.png" alt="" class="slide__img">
+                                <p class="slide__text">С русской баней на дровах</p>
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- If we need navigation buttons -->
+
+
+                    </div>
+
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+
+                </div>
 
 
             </div>
-
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-
-          </div>
-        </div>
-
-
-
-
         </div>
     </div>
 
 
-
 </header>
-
-
-
 
 
 <body>
