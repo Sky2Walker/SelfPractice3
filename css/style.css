@@ -289,4 +289,45 @@ body{
 
     color: #FFFFFF;
     max-width: 447px;
+    margin-bottom: 100px;
+}
+
+
+.header__slider{
+
+}
+
+.swiper {
+    max-width: 660px;
+    height: 170px;
+    margin: 0;
+
+}
+
+
+.swiper-slide{
+    text-align: center;
+}
+
+.swiper-button-next:after{
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+
+.swiper-button-prev:after{
+    font-size: 15px;
+    color: #FFFFFF;
+   
+
+}
+
+.slide__text{
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    text-align: center;
+
+    color: #FFFFFF;
 }
