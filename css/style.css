@@ -288,7 +288,7 @@ body {
 
 
 .slider__ihner{
-
+    margin-bottom: 67px;
 }
 
 .header__slider {
@@ -361,3 +361,142 @@ body {
     color: #FFFFFF;
 }
 
+.social__list{
+    display: flex;
+    align-items: center;
+}
+
+.social__img{
+    margin-right: 20px;
+}
+
+.header__section-ihner{
+    display: flex;
+}
+
+.contant__left{
+    max-width: 660px;
+    margin-right: 168px;
+}
+
+
+.contant__right{
+}
+
+.right__bacground{
+    background: #FFFFFF;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.arrive__text{
+    display: flex;
+    padding-top: 59px;
+    padding-left: 60px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #444444;
+}
+
+.arive{
+    margin-right: 87px;
+    margin-bottom: 6px;
+}
+
+.arrive_input{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.inputs__arive{
+    border: 1px solid #C0C2D7;
+    border-radius: 200px;
+
+
+
+}
+
+.input__arive{
+    border: none;
+    outline: none;
+    border-right: 1px solid #C0C2D7;
+    width: 139px;
+    height: 50px;
+}
+
+.input__arive::placeholder{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #C0C2D7;
+
+    padding: 12px 97px 14px 20px;
+}
+
+.input__departure{
+    border: none;
+    outline: none;
+    width: 139px;
+    height: 50px;
+}
+
+.input__departure::placeholder{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #C0C2D7;
+
+    padding: 12px 96px 14px 20px;
+}
+
+
+.count__text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #444444;
+    margin-bottom: 6px;
+    margin-left: 60px;
+}
+
+.count__input{
+    margin-left: 40px;
+    border: 1px solid #C0C2D7;
+    border-radius: 200px;
+    height: 50px;
+    width: 280px;
+    outline: none;
+    margin-bottom: 48px;
+}
+
+.count__input::placeholder{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #C0C2D7;
+    padding: 19px 244px 13px 20px;
+
+}
+
+.double{
+    width: 276px;
+    margin-left: 60px;
+}
