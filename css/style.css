@@ -1020,3 +1020,39 @@ body {
 
     color: #FFFFFF;
 }
+.footer{
+    width: 1920px;
+    background: linear-gradient(180deg, #161723 0%, #161723 109.24%);
+}
+
+.footer__catalog__title{
+    padding-top: 82px;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 150%;
+    /* identical to box height, or 33px */
+
+
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+.footer__catalog__items{
+    padding-bottom:  73px;
+}
+
+.footer__catalog__link{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #C0C2D7;
+
+    margin-bottom: 15px;
+}
